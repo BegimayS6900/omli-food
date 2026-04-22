@@ -102,8 +102,14 @@ nav a {
 
 .customer-box{
     display: flex;
+    justify-content: center;
     align-items: center;
     gap: 16px;
+}
+
+.customer-box img{
+    padding: 0;
+    width: 194px;
 }
 
 .customer-box span{
@@ -114,6 +120,7 @@ nav a {
 .customer-box span::before{
     content: '250,000+';
     color: #E67E22;
+    font-weight: 600;
 }
 
 /* how-it-work */
@@ -155,6 +162,7 @@ nav a {
     font-size: 17px;
     font-weight: 500;
     color: #E67E22;
+    margin: 0;
 }
 
 .description{
@@ -325,11 +333,10 @@ nav a {
 .testtimonials{
     display: flex;
     gap: 45px;
-    padding: 32px 30px 48px 148px;
-}
+    width: 1440px;
+    margin: 0 auto;
+    padding: 32px 0px 48px 148px;
 
-.testtimonials-left{
-    /* width: 50%; */
 }
 
 .testtimonials h3{
@@ -387,6 +394,10 @@ nav a {
     margin-bottom: 151px;
 }
 
+.pricing-card h3{
+    margin: 48px 0 16px 0;
+}
+
 .pricing-block{
     display: flex;
     justify-content: center;
@@ -401,12 +412,13 @@ nav a {
     height: 543px;
     border: 1px solid #ffd8b7;
     border-radius: 10px;
-    /* padding: 48px 0; */
 }
 
 .pricing-card p{
     font-size: 56px;
     font-weight: 700;
+    margin: 0;
+    margin-bottom: 8px;
 }
 
 .pricing-card p img{
@@ -440,7 +452,6 @@ nav a {
 .footer-block{
     display: flex;
     justify-content: space-between;
-    padding-top: 208px;
 }
 
 .fooeter-logo p{
